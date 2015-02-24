@@ -3,7 +3,7 @@ A crude cross-linker from OS X to Plan 9.
 
 It reads a Mach-O into memory, checks that it isn't dynamically linked, and blindly copies bytes into a Plan 9 executable.
 
-The goal of this is to provide a means to targetting Plan 9 with Rust, similar to how Rust targets Android. Ideally, Plan 9 support will be added to mahkoh's [rlibc](https://github.com/mahkoh/rlibc), allowing most of libstd to be ported to Plan 9.
+The goal of this is to provide a means to targeting Plan 9 with Rust, similar to how Rust targets Android. Ideally, Plan 9 support will be added to mahkoh's [rlibc](https://github.com/mahkoh/rlibc), allowing most of libstd to be ported to Plan 9.
 
 ## Build
 
