@@ -1,0 +1,8 @@
+[package]
+
+name = "ld9"
+version = "0.0.1"
+authors = ["Alex Chandel <alexchandel@gmail.com>"]
+
+[dependencies]
+byteorder = "*"
