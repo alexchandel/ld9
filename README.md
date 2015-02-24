@@ -35,3 +35,7 @@ ld9
 
 This will produce a Plan 9 executable called `aout9` that, when run on Plan 9,
 immediately calls `exits`.
+
+## Todo
+
+* ELF support. I used Mach-O because that's what I'm running, but this should work for static ELFs too.
